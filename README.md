@@ -1,12 +1,12 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Introduction
 
-Welcome,
+F1 Blog is a blog about F1, where users can discuss whats happening, and follow about upcoming races, basically anything F1 related.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The project was developed as part of Code Institute's 16 week Full Stack Development course as my final individual project, bringing together the knowledge I've learned over the course through my study.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The project focuses on the use of Django and Bootstrap frameworks to aid in the production of a functional web app with database manipulation and CRUD functionality.
 
-## Codeanywhere Reminders
+<a href="https://f1-blog-127d4f6de80c.herokuapp.com"> <h4 align="center">View F1 Blog site here</h4></a>
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
