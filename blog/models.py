@@ -1,8 +1,11 @@
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
+
 STATUS = ((0, "Draft"), (1, "Published"))
+
 # Create your models here.
+
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
@@ -18,6 +21,7 @@ class Post(models.Model):
 
     class Meta:
         ordering = ["-created_on"]
+
     def  __str__(self):
         return f"{self.title} | written by {self.author}"
 
@@ -33,28 +37,3 @@ class Comment(models.Model):
         ordering = ["created_on"]
     def __str__(self):
         return f"Comment {self.body} by {self.author}"
-
-
-class Event(models.Model):
-    event_name = models.CharField(max_length=200, unique=True)
-    location = models.CharField(max_length=200)
-    date = models.DateTimeField()
-
-    def __str__(self):
-        return self.event_name
-    
-class Ticket(models.Model):
-    ticket_holder = models.ForeignKey(
-        User,
-        on_delete=models.CASCADE,
-        related_name="users_tickets"
-    )
-    date_issued = models.DateTimeField(auto_now_add=True)
-    event = models.ForeignKey(
-        Event,
-        on_delete=models.CASCADE,
-        related_name="event_tickets"
-    )
-
-    def  __str__(self):
-        return f"Ticket for {self.ticket_holder}"
