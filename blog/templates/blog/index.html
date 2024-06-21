@@ -13,7 +13,7 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top" src="{% static 'default.jpg' %}" alt="placeholder ima"> {% else %}
+                                <img class="card-img-top" src="{% static '166987878GI00099_F1_Grand_P.webp' %}" alt="placeholder ima"> {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="{{ post.title }}"> {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
@@ -24,7 +24,7 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
 
-                            <hr />
+                            <hr>
                             <p class="card-text text-muted h6">{{ post.created_on}}
                             </p>
                         </div>
@@ -54,4 +54,5 @@
 </div>
 
 <!-- index.html content ends here -->
-{% endblock %} {% block copyright %} Copyright 2024 Vedran Lajic {% endblock %}
+{% endblock %} {% block copyright %}© Copyright 2024
+<a href="https://github.com/Veki28/" id="footer" target="_blank">Vedran Lajic</a> {% endblock %}

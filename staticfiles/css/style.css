@@ -2,7 +2,25 @@ body {
     background-color: #efefef;
 }
 
-#nav-link1 {
+#about,
+#home,
+#merchandise,
+#register,
+#login,
+#logout {
+    color: #fff;
+}
+
+#about:hover,
+#home:hover,
+#merchandise:hover,
+#register:hover,
+#login:hover,
+#logout:hover {
+    color: #ff1801;
+}
+
+#nav-text {
     color: #fff;
 }
 
@@ -56,8 +74,8 @@ body {
 }
 
 .scale {
-    width: 100%;
-    height: auto;
+    width: 75%;
+    height: 100%;
 }
 
 .author {
@@ -76,7 +94,7 @@ body {
 }
 
 .masthead-text {
-    background-color: #fbebd8;
+    background-color: #3232;
     color: #445261;
     position: relative;
 }
@@ -90,24 +108,24 @@ body {
     content: "";
     position: absolute;
     top: 0;
-    right: 90%;
+    right: 95%;
     height: 100%;
     width: 150%;
-    background: #fbebd8;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
+    background: #dedde1;
+    -webkit-transform: skew(5deg);
+    -moz-transform: skew(5deg);
+    transform: skew(5deg);
     z-index: 100;
 }
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: #323232;
 }
 
 .post-link:hover,
 .page-link {
-    color: #ff1801;
+    color: #ff1801!important;
 }
 
 .post-title {
@@ -161,10 +179,30 @@ body {
     border: none;
 }
 
+.btn-secondary {
+    background-color: #ff1801!important;
+    border-color: #ff1801!important;
+    color: #fff!important;
+}
+
+.btn-secondary:hover {
+    background-color: #fff!important;
+    border-color: #fff!important;
+    color: #ff1801!important;
+}
+
 .faded {
     color: rgb(172, 175, 175);
 }
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+#footer {
+    color: #fff;
+}
+
+#footer:hover {
+    color: #ff1801;
 }

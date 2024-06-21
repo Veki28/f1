@@ -9,7 +9,8 @@
     border-bottom: 1px solid var(--hairline-color);
 }
 
-.form-row img, .form-row input {
+.form-row img,
+.form-row input {
     vertical-align: middle;
 }
 
@@ -23,13 +24,14 @@ form .form-row p {
 }
 
 .flex-container {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
 }
 
-.form-multiline > div {
+.form-multiline>div {
     padding-bottom: 10px;
 }
+
 
 /* FORM LABELS */
 
@@ -39,10 +41,12 @@ label {
     font-size: 0.8125rem;
 }
 
-.required label, label.required {
+.required label,
+label.required {
     font-weight: bold;
     color: var(--body-fg);
 }
+
 
 /* RADIO BUTTONS */
 
@@ -73,6 +77,7 @@ form ul.inline li {
     padding-right: 7px;
 }
 
+
 /* ALIGNED FIELDSETS */
 
 .aligned label {
@@ -90,7 +95,9 @@ form ul.inline li {
     height: 1.625rem;
 }
 
-.aligned label + p, .aligned .checkbox-row + div.help, .aligned label + div.readonly {
+.aligned label+p,
+.aligned .checkbox-row+div.help,
+.aligned label+div.readonly {
     padding: 6px 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -108,7 +115,8 @@ form ul.inline li {
     margin-bottom: 0;
 }
 
-.colMS .aligned .vLargeTextField, .colMS .aligned .vXMLLargeTextField {
+.colMS .aligned .vLargeTextField,
+.colMS .aligned .vXMLLargeTextField {
     width: 350px;
 }
 
@@ -142,12 +150,12 @@ form .aligned div.help:last-child {
     padding-bottom: 0;
 }
 
-form .aligned input + p.help,
-form .aligned textarea + p.help,
-form .aligned select + p.help,
-form .aligned input + div.help,
-form .aligned textarea + div.help,
-form .aligned select + div.help {
+form .aligned input+p.help,
+form .aligned textarea+p.help,
+form .aligned select+p.help,
+form .aligned input+div.help,
+form .aligned textarea+div.help,
+form .aligned select+div.help {
     margin-left: 160px;
     padding-left: 10px;
 }
@@ -169,18 +177,20 @@ form .aligned table p {
     padding: 0 0 5px 5px;
 }
 
-.aligned .vCheckboxLabel + p.help,
-.aligned .vCheckboxLabel + div.help {
+.aligned .vCheckboxLabel+p.help,
+.aligned .vCheckboxLabel+div.help {
     margin-top: -4px;
 }
 
-.colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
+.colM .aligned .vLargeTextField,
+.colM .aligned .vXMLLargeTextField {
     width: 610px;
 }
 
 fieldset .fieldBox {
     margin-right: 20px;
 }
+
 
 /* WIDE FIELDSETS */
 
@@ -190,8 +200,8 @@ fieldset .fieldBox {
 
 form .wide p,
 form .wide ul.errorlist,
-form .wide input + p.help,
-form .wide input + div.help {
+form .wide input+p.help,
+form .wide input+div.help {
     margin-left: 200px;
 }
 
@@ -205,9 +215,11 @@ form div.help ul {
     margin-left: 0;
 }
 
-.colM fieldset.wide .vLargeTextField, .colM fieldset.wide .vXMLLargeTextField {
+.colM fieldset.wide .vLargeTextField,
+.colM fieldset.wide .vXMLLargeTextField {
     width: 450px;
 }
+
 
 /* COLLAPSED FIELDSETS */
 
@@ -215,7 +227,8 @@ fieldset.collapsed * {
     display: none;
 }
 
-fieldset.collapsed h2, fieldset.collapsed {
+fieldset.collapsed h2,
+fieldset.collapsed {
     display: block;
 }
 
@@ -240,11 +253,13 @@ fieldset.collapsed .collapse-toggle {
     color: var(--link-fg);
 }
 
+
 /* MONOSPACE TEXTAREAS */
 
 fieldset.monospace textarea {
     font-family: var(--font-family-monospace);
 }
+
 
 /* SUBMIT ROW */
 
@@ -269,7 +284,8 @@ body.popup .submit-row {
     line-height: 0.9375rem;
 }
 
-.submit-row input, .submit-row a {
+.submit-row input,
+.submit-row a {
     margin: 0;
 }
 
@@ -315,6 +331,7 @@ body.popup .submit-row {
     text-decoration: none;
 }
 
+
 /* CUSTOM FORM FIELDS */
 
 .vSelectMultipleField {
@@ -325,7 +342,8 @@ body.popup .submit-row {
     border: none;
 }
 
-.vDateField, .vTimeField {
+.vDateField,
+.vTimeField {
     margin-right: 2px;
     margin-bottom: 4px;
 }
@@ -342,7 +360,8 @@ body.popup .submit-row {
     width: 30em;
 }
 
-.vLargeTextField, .vXMLLargeTextField {
+.vLargeTextField,
+.vXMLLargeTextField {
     width: 48em;
 }
 
@@ -366,9 +385,11 @@ body.popup .submit-row {
     width: 5em;
 }
 
-.vTextField, .vUUIDField {
+.vTextField,
+.vUUIDField {
     width: 20em;
 }
+
 
 /* INLINES */
 
@@ -500,6 +521,7 @@ body.popup .submit-row {
 .empty-form {
     display: none;
 }
+
 
 /* RELATED FIELD ADD ONE / LOOKUP */
 

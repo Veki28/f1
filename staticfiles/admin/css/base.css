@@ -23,7 +23,7 @@ html[data-theme="light"],
     --breadcrumbs-link-fg: var(--body-bg);
     --breadcrumbs-bg: var(--primary);
     --link-fg: #2bb2f6;
-    --link-hover-color: #90e0ef;
+    --link-hover-color: #ff1801;
     --link-selected-fg: #006eff;
     --hairline-color: #e8e8e8;
     --border-color: #ccc;
