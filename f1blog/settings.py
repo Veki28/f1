@@ -17,6 +17,24 @@ import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': os.environ.get('C_CLOUD_NAME'),
+    'API_KEY': os.environ.get('C_API_KEY'),
+    'API_SECRET': os.environ.get('C_API_SECRET'),
+    'SECURE': True  # Ensure secure URLs
+}
+
+cloudinary.config(
+    cloud_name=CLOUDINARY_STORAGE['CLOUD_NAME'],
+    api_key=CLOUDINARY_STORAGE['API_KEY'],
+    api_secret=CLOUDINARY_STORAGE['API_SECRET'],
+    secure=True  # This ensures that secure URLs are used
+)
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
