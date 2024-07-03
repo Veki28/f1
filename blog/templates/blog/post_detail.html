@@ -1,4 +1,5 @@
-{% extends 'base.html' %} {% block content %} {% load static %} {% load crispy_forms_tags %}
+{% extends 'base.html' %} {% load static %} {% load crispy_forms_tags %} {% block meta_title %}{{ post.title }}{% endblock meta_title %} {% block meta_description %}{{ post.excerpt }}{% endblock meta_description %} {% block meta_image %}{% if post.featured_image
+%}{{ post.featured_image.url }}{% else %}{% static 'images/166987878GI00099_F1_Grand_P.webp' %}{% endif %}{% endblock meta_image %} {% block meta_author %}{{ post.author }}{% endblock meta_author %} {% block content %}
 
 <div class="masthead">
     <div class="container">
