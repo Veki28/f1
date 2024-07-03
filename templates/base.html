@@ -1,4 +1,4 @@
-{% load static %} {% url 'home' as home_url %} {% url 'about' as about_url %} {% url 'account_login' as login_url %} {% url 'account_signup' as signup_url %} {% url 'account_logout' as logout_url %}
+{% load static %} {% url 'home' as home_url %} {% url 'about' as about_url %} {% url 'contact' as contact_url %} {% url 'account_login' as login_url %} {% url 'account_signup' as signup_url %} {% url 'account_logout' as logout_url %}
 
 <!DOCTYPE html>
 <html class="h-100" lang="en">
@@ -7,6 +7,9 @@
     <title>F1 Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}" />
+    <meta property="og:title" content="{% block meta_title %}F1 Blog{% endblock meta_title %}">
+    <meta property="og:description" content="{% block meta_description %}The best F1 blog{% endblock meta_description %}">
+    <meta property="og:image" content="{% block meta_image %}{% static 'images/166987878GI00099_F1_Grand_P.webp' %}{% endblock meta_image %}">
 
     <!-- Google Fonts CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,10 +41,16 @@
                         <a id="home" class="nav-link {% if request.path == home_url %}active" aria-current="page{% endif %}" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a id="merchandise" class="nav-link" href="https://f1store.formula1.com/en/" target="_blank">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="watch-live" class="nav-link" href="https://f1tv.formula1.com/" target="_blank">Watch Live</a>
+                    </li>
+                    <li class="nav-item">
                         <a id="about" class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}" href="{% url 'about' %}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a id="merchandise" class="nav-link" href="https://f1store.formula1.com/en/" target="_blank">Merchandise</a>
+                        <a id="contact" class="nav-link {% if request.path == contact_url %}active" aria-current="page{% endif %}" href="{% url 'contact' %}">Contact Me</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -78,7 +87,7 @@
 
     <main class="flex-shrink-0 main-bg">
         {% if user.is_authenticated %}
-        <p class="text-end m-3">You are logged in as {{ user }}</p>
+        <p class="text-end m-3">Logged in as {{ user }}</p>
         {% else %}
         <p class="text-end m-3">You are not logged in</p>
         {% endif %} {% block content %}
@@ -90,7 +99,7 @@
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
         <p class="m-0 text-center text-white">
-            {% block copyright %} Made by <a href="https://github.com/Veki28/" id="footer" target="_blank">Vedran Lajic</a> {% endblock copyright %}
+            {% block copyright %} Made by <a href="https://github.com/Veki28/" id="footer" target="_blank">Vedran</a> {% endblock copyright %}
         </p>
         <p class="m-0 text-center text-white">Follow us on:
 

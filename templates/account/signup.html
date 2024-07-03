@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% load i18n %} {% block head_title %}{% trans "Signup" %}{% endblock %} {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col-md-6 mt-5 offset-md-2">
+        <div class="col-md-6 mt-3 offset-md-2">
             <h1>{% trans "Sign Up" %}</h1>
 
             <p>
@@ -11,11 +11,24 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6 mt-5 offset-md-2">
+        <div class="col-md-6 offset-md-2">
             <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-                {% csrf_token %} {{ form.as_p }} {% if redirect_field_value %}
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="{{ form.username.id_for_label }}">{{ form.username.label }}</label> {{ form.username }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.email.id_for_label }}">{{ form.email.label }}</label> {{ form.email }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.password1.id_for_label }}">{{ form.password1.label }}</label> {{ form.password1 }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.password2.id_for_label }}">{{ form.password2.label }}</label> {{ form.password2 }}
+                </div>
+                {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" /> {% endif %}
-                <button class="btn btn-signup right" type="submit">
+                <button class="btn btn-signup mt-5 right" type="submit">
           {% trans "Sign Me Up" %}</button>
             </form>
         </div>

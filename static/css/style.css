@@ -5,6 +5,8 @@ body {
 #about,
 #home,
 #merchandise,
+#watch-live,
+#contact,
 #register,
 #login,
 #logout {
@@ -14,6 +16,8 @@ body {
 #about:hover,
 #home:hover,
 #merchandise:hover,
+#watch-live:hover,
+#contact:hover,
 #register:hover,
 #login:hover,
 #logout:hover {
@@ -206,4 +210,19 @@ body {
 
 #footer:hover {
     color: #ff1801;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    margin-top: 5px;
 }
