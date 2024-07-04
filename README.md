@@ -100,9 +100,10 @@ You can find project board within the "projects" section of this Github Repo.
 
 ### Project Extra features
 - Users can easily share their favourite blog posts across any social media of their choosing and it will be embedded in compact view (heading, description and picture) which can be seen below
-
+Homepage embed
 <p align="center"><img src="https://i.imgur.com/PqLjLmg.png"></p>
-
+Article embed
+<p align="center"><img src="https://i.imgur.com/Jz7ySoK.png"></p>
 ---
 
 ### Models
