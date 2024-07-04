@@ -10,7 +10,7 @@ from .forms import CommentForm
 
 class PostList(generic.ListView):
     """
-    Returns all published posts in :model:`blog.Post` 
+    Returns all published posts in :model:`blog.Post`
     and displays them in a page of 3 posts.
     **For context**
 

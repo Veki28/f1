@@ -34,4 +34,5 @@ class TestAboutView(TestCase):
         self.assertIn(
             b"Your collaboration request has been \
                                  successfully received. The usual response \
-                                 time is around 3 working days.", response.content)
+                                 time is around 3 working days.\
+                                 ", response.content)

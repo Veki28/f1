@@ -12,7 +12,8 @@ class TestBlogViews(TestCase):
     def setUp(self):
         """Create a superuser and a blog post"""
         self.user = User.objects.create_superuser(
-            username="myUsername", password="myPassword", email="test@test.com")
+            username="myUsername", password="myPassword", email="test@test.com\
+                ")
         self.post = Post(title="Blog title", author=self.user,
                          slug="blog-title", excerpt="Blog excerpt",
                          content="Blog content", status=1)
@@ -38,4 +39,3 @@ class TestBlogViews(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'Comment is submitted and is waiting approval',
                       response.content)
-        
