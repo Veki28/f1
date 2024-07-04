@@ -85,7 +85,7 @@ Below are some of the user stories can be found in GitHub Projects board, which 
 
 You can find project board within the "projects" section of this Github Repo.
 
----
+----
 ## Ideation
 
 ### Project Features
@@ -99,13 +99,14 @@ You can find project board within the "projects" section of this Github Repo.
 
 
 ### Project Extra features
-- Users can easily share their favourite blog posts across any social media of their choosing and it will be embedded in compact view (heading, description and picture) which can be seen below
-Homepage embed
+- Users can easily share their favourite blog posts across any social media of their choosing and it will be embedded in compact view (heading, description and picture) which can be seen below:
+<h4 align="center">Homepage embed</h4>
 <p align="center"><img src="https://i.imgur.com/PqLjLmg.png"></p>
-Article embed
-<p align="center"><img src="https://i.imgur.com/Jz7ySoK.png"></p>
----
 
+<h4 align="center">Article embed</h4>
+<p align="center"><img src="https://i.imgur.com/Jz7ySoK.png"></p>
+
+---
 ### Models
 
 #### Built In
@@ -149,27 +150,27 @@ For the font of choice I kept it simple and went with Sans Serif, however future
 ---
 ## Site Showcase
 
-First picture is a landing page (desktop)
+<h4 align="center">First picture is a landing page (desktop)</h4>
 
 ![Homepage desktop](https://i.imgur.com/1uKnEdF.png)
 
-Secondly we have a landing page (phone)
+<h4 align="left">Secondly we have a landing page (phone)</h4>
 
 ![Homepage phone](https://i.imgur.com/Rhh97v4.png)
 
-thirdly we have a login page (desktop)
+<h4 align="center">thirdly we have a login page (desktop)</h4>
 
 ![login](https://i.imgur.com/Z36Cy99.png)
 
-Next we have a about page (desktop)
+<h4 align="center">Next we have a about page (desktop)</h4>
 
 ![About](https://i.imgur.com/KUEBwRJ.png)
 
-One of the posts (desktop)
+<h4 align="center">One of the posts (desktop)</h4>
 
 ![One of the posts](https://i.imgur.com/fk5bzlT.png)
 
-One of the posts (mobile)
+<h4 align="left">One of the posts (mobile)</h4>
 
 ![One of the posts](https://i.imgur.com/YVsYpY7.png)
 
