@@ -11,7 +11,7 @@ This project was developed as part of CI's 16 week Full Stack Development course
 
 The project focuses on the use of Django and Bootstrap frameworks to aid in the production of a functional web app with database manipulation and CRUD functionality.
 
-<a href="https://f1-blog-127d4f6de80c.herokuapp.com"> <h4 align="center">F1 Blog site</h4> </a>
+<a href="https://f1-blog-127d4f6de80c.herokuapp.com/"> <h4 align="center">F1 Blog site</h4> </a>
 
 ## Overview
 
@@ -38,7 +38,7 @@ Users on site can do the following:
 ---
 ## User Stories
 
-Below are all user stories can be found in GitHub Projects board, which was used to add/edit and track progress completion
+Below are some of the user stories can be found in GitHub Projects board, which was used to add/edit and track progress completion
 
 ### User not logged-in:
 | I want to | acceptance criteria |
