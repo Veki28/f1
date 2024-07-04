@@ -1,6 +1,6 @@
 # F1 Blog
 
-<img src="https://imgur.com/a/MxRMlLT">
+<img src="https://i.imgur.com/VFVFeCF.png">
 
 ---
 ## Introduction
@@ -11,7 +11,7 @@ This project was developed as part of CI's 16 week Full Stack Development course
 
 The project focuses on the use of Django and Bootstrap frameworks to aid in the production of a functional web app with database manipulation and CRUD functionality.
 
-<a href="https://f1-blog-127d4f6de80c.herokuapp.com"> <h4 align="center">F1 Blog site</h4></a>
+<a href="https://f1-blog-127d4f6de80c.herokuapp.com"> <h4 align="center">F1 Blog site</h4> </a>
 
 ## Overview
 
@@ -77,11 +77,11 @@ Below are all user stories can be found in GitHub Projects board, which was used
 
 - Effective planning and management of my Kanban board from the outset enabled me to establish a robust timeline and maintain a tight scope, thereby preventing unnecessary deviations and ensuring that I stayed on track to meet my project deadlines.
 
-![Project Board](https://imgur.com/a/WWB3iA0)
+![Project Board](https://i.imgur.com/yXJUq4c.png)
 
 - By leveraging Labels, I successfully applied the MOSCOW prioritization method to each user story, allowing me to visualize and track their priority levels within my Project Kanban board. This enabled me to easily access and adjust the priorities as needed, ensuring that I remained adaptable to changing project requirements and timelines.
 
-<p align="center"><img src="https://imgur.com/a/JjHJ3Mk"></p>
+<p align="center"><img src="https://i.imgur.com/TxdokJL.png"></p>
 
 You can find project board within the "projects" section of this Github Repo.
 
