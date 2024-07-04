@@ -101,7 +101,7 @@ You can find project board within the "projects" section of this Github Repo.
 ### Project Extra features
 - Users can easily share their favourite blog posts across any social media of their choosing and it will be embedded in compact view (heading, description and picture) which can be seen below
 
-<p align="center"><img src="https://imgur.com/a/0RFVsaz"></p>
+<p align="center"><img src="https://i.imgur.com/PqLjLmg.png"></p>
 
 ---
 
@@ -126,7 +126,7 @@ You can find project board within the "projects" section of this Github Repo.
 
 The color scheme of the site is loosely based off real F1 site and a palette I discovered on https://www.brandcolorcode.com/formula-one
 
-<p align="center"><img src="https://imgur.com/a/ucB8zyp"></p>
+<p align="center"><img src="https://i.imgur.com/PVbde2N.png"></p>
 
 - For site I wanted to go with 'original' but tweaked design with dark gray being contrasting color to white, giving it it a nice colour palette with a touch of bright red.
 - Red (and white less so) is commonly associated with many companies, one of the being Formula 1. The site revolves around F1 so it made sense that white and red are found on the site
