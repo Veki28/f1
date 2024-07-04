@@ -150,11 +150,11 @@ For the font of choice I kept it simple and went with Sans Serif, however future
 
 First picture is a landing page (desktop)
 
-![Homepage desktop](https://imgur.com/a/1Metrjp)
+![Homepage desktop](https://i.imgur.com/1uKnEdF.png)
 
 Secondly we have a landing page (phone)
 
-![Homepage phone](https://imgur.com/a/oQOL1il)
+![Homepage phone](https://i.imgur.com/Rhh97v4.png)
 
 thirdly we have a login page (desktop)
 
@@ -166,11 +166,11 @@ Next we have a about page (desktop)
 
 One of the posts (desktop)
 
-![One of the posts](https://imgur.com/a/I5JxHRi)
+![One of the posts](https://i.imgur.com/fk5bzlT.png)
 
 One of the posts (mobile)
 
-![One of the posts](https://imgur.com/a/S2hh03U)
+![One of the posts](https://i.imgur.com/YVsYpY7.png)
 
 ---
 ## Future Implementations
