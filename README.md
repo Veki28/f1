@@ -11,7 +11,7 @@ This project was developed as part of CI's 16 week Full Stack Development course
 
 The project focuses on the use of Django and Bootstrap frameworks to aid in the production of a functional web app with database manipulation and CRUD functionality.
 
-[You can view the deployed site by clicking on this](https://f1-blog-127d4f6de80c.herokuapp.com)
+<h4 align="center">[You can view the deployed site by clicking on this](https://f1-blog-127d4f6de80c.herokuapp.com)</h4>
 
 ## Overview
 
