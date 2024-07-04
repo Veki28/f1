@@ -158,11 +158,11 @@ Secondly we have a landing page (phone)
 
 thirdly we have a login page (desktop)
 
-![login](https://i.imgur.com/o79PweK.png)
+![login](https://i.imgur.com/Z36Cy99.png)
 
 Next we have a about page (desktop)
 
-![About](https://imgur.com/a/UmD41uV)
+![About](https://i.imgur.com/KUEBwRJ.png)
 
 One of the posts (desktop)
 
@@ -190,9 +190,9 @@ There were several features during the initial ideation of the project that had 
 
 - Password resetting/social account login (oauth)
 
-## compatibility/accessibility
+## Compatibility/accessibility
 
-### device compatibility & responsivness
+### Device compatibility & responsivness
 
 As demonstrated above in the site showcase and Project introduction image, site has been fully responsively tested to ensure that nothing breaks based on screen sizes down to 240px in width, which is more than widely accepted (320px) as the key mobile display width range to aim for. 
 
@@ -203,11 +203,11 @@ Throughout the sites development, no significant changes were made to ensure tha
 - Ensured a responsive navbar was implemented and that all dropdown options functioned.
 - Ensured that elements scaled responsively while retaining readability.
 
-### accessibility
+### Accessibility
 
 To ensure accessibility, I implemented several key features. I added appropriate ARIA labels to page elements, enabling seamless functionality with screen readers. Furthermore, I designed buttons to be clearly visible and included informative messages to notify users of actions taken, promoting a more inclusive user experience.
 
-## technologies used
+## Technologies used
 - HTML
 - CSS
 - Python
@@ -225,7 +225,7 @@ To ensure accessibility, I implemented several key features. I added appropriate
 - Code Institute CI Python Linter - Python Manual Testing
 - W3 Markup Validation Service - HTML & CSS Validation Testing
 
-## libraries and frameworks
+## Libraries and Frameworks
 - Bootstrap v5.3.2
 - Django v 4.2.1
 - Django AllAuth v0.57.0
@@ -236,14 +236,14 @@ To ensure accessibility, I implemented several key features. I added appropriate
 - Gunicorn v20.1.0
 - Cloudinary v1.36.0
 
-## additional tools
+## Additional tools
 - Autopep8 - Python Formatter
 - GoogleFonts - Fonts
 - Imgur - ReadME image hosting
 - ChatGPT - Debugging and documentation assistance
 
 ---
-### deployment
+### Deployment
 
 Django & Heroku Deployment was set up following the PDF provided by CI below:
 [Deployment Guide](Deployment.pdf)
