@@ -1,6 +1,6 @@
 # F1 Blog
 
-<img src="https://imgur.com/a/MxRMlLT">
+<img src="https://i.imgur.com/VFVFeCF.png">
 
 ---
 ## Introduction
@@ -11,7 +11,7 @@ This project was developed as part of CI's 16 week Full Stack Development course
 
 The project focuses on the use of Django and Bootstrap frameworks to aid in the production of a functional web app with database manipulation and CRUD functionality.
 
-<a href="https://f1-blog-127d4f6de80c.herokuapp.com"> <h4 align="center">F1 Blog site</h4></a>
+## [You can view the deployed site by clicking on this](https://f1-blog-127d4f6de80c.herokuapp.com)
 
 ## Overview
 
@@ -38,7 +38,7 @@ Users on site can do the following:
 ---
 ## User Stories
 
-Below are all user stories can be found in GitHub Projects board, which was used to add/edit and track progress completion
+Below are some of the user stories can be found in GitHub Projects board, which was used to add/edit and track progress completion
 
 ### User not logged-in:
 | I want to | acceptance criteria |
@@ -77,15 +77,15 @@ Below are all user stories can be found in GitHub Projects board, which was used
 
 - Effective planning and management of my Kanban board from the outset enabled me to establish a robust timeline and maintain a tight scope, thereby preventing unnecessary deviations and ensuring that I stayed on track to meet my project deadlines.
 
-![Project Board](https://imgur.com/a/WWB3iA0)
+![Project Board](https://i.imgur.com/yXJUq4c.png)
 
 - By leveraging Labels, I successfully applied the MOSCOW prioritization method to each user story, allowing me to visualize and track their priority levels within my Project Kanban board. This enabled me to easily access and adjust the priorities as needed, ensuring that I remained adaptable to changing project requirements and timelines.
 
-<p align="center"><img src="https://imgur.com/a/JjHJ3Mk"></p>
+<p align="center"><img src="https://i.imgur.com/TxdokJL.png"></p>
 
 You can find project board within the "projects" section of this Github Repo.
 
----
+----
 ## Ideation
 
 ### Project Features
@@ -99,12 +99,14 @@ You can find project board within the "projects" section of this Github Repo.
 
 
 ### Project Extra features
-- Users can easily share their favourite blog posts across any social media of their choosing and it will be embedded in compact view (heading, description and picture) which can be seen below
+- Users can easily share their favourite blog posts across any social media of their choosing and it will be embedded in compact view (heading, description and picture) which can be seen below:
+<h4 align="center">Homepage embed</h4>
+<p align="center"><img src="https://i.imgur.com/PqLjLmg.png"></p>
 
-<p align="center"><img src="https://imgur.com/a/0RFVsaz"></p>
+<h4 align="center">Article embed</h4>
+<p align="center"><img src="https://i.imgur.com/Jz7ySoK.png"></p>
 
 ---
-
 ### Models
 
 #### Built In
@@ -126,7 +128,7 @@ You can find project board within the "projects" section of this Github Repo.
 
 The color scheme of the site is loosely based off real F1 site and a palette I discovered on https://www.brandcolorcode.com/formula-one
 
-<p align="center"><img src="https://imgur.com/a/ucB8zyp"></p>
+<p align="center"><img src="https://i.imgur.com/PVbde2N.png"></p>
 
 - For site I wanted to go with 'original' but tweaked design with dark gray being contrasting color to white, giving it it a nice colour palette with a touch of bright red.
 - Red (and white less so) is commonly associated with many companies, one of the being Formula 1. The site revolves around F1 so it made sense that white and red are found on the site
@@ -148,29 +150,29 @@ For the font of choice I kept it simple and went with Sans Serif, however future
 ---
 ## Site Showcase
 
-First picture is a landing page (desktop)
+<h4 align="center">First picture is a landing page (desktop)</h4>
 
-![Homepage desktop](https://imgur.com/a/1Metrjp)
+![Homepage desktop](https://i.imgur.com/1uKnEdF.png)
 
-Secondly we have a landing page (phone)
+<h4 align="left">Secondly we have a landing page (phone)</h4>
 
-![Homepage phone](https://imgur.com/a/oQOL1il)
+![Homepage phone](https://i.imgur.com/Rhh97v4.png)
 
-thirdly we have a login page (desktop)
+<h4 align="center">thirdly we have a login page (desktop)</h4>
 
-![login](https://i.imgur.com/o79PweK.png)
+![login](https://i.imgur.com/Z36Cy99.png)
 
-Next we have a about page (desktop)
+<h4 align="center">Next we have a about page (desktop)</h4>
 
-![About](https://imgur.com/a/UmD41uV)
+![About](https://i.imgur.com/KUEBwRJ.png)
 
-One of the posts (desktop)
+<h4 align="center">One of the posts (desktop)</h4>
 
-![One of the posts](https://imgur.com/a/I5JxHRi)
+![One of the posts](https://i.imgur.com/fk5bzlT.png)
 
-One of the posts (mobile)
+<h4 align="left">One of the posts (mobile)</h4>
 
-![One of the posts](https://imgur.com/a/S2hh03U)
+![One of the posts](https://i.imgur.com/YVsYpY7.png)
 
 ---
 ## Future Implementations
@@ -190,9 +192,9 @@ There were several features during the initial ideation of the project that had 
 
 - Password resetting/social account login (oauth)
 
-## compatibility/accessibility
+## Compatibility/accessibility
 
-### device compatibility & responsivness
+### Device compatibility & responsivness
 
 As demonstrated above in the site showcase and Project introduction image, site has been fully responsively tested to ensure that nothing breaks based on screen sizes down to 240px in width, which is more than widely accepted (320px) as the key mobile display width range to aim for. 
 
@@ -203,11 +205,11 @@ Throughout the sites development, no significant changes were made to ensure tha
 - Ensured a responsive navbar was implemented and that all dropdown options functioned.
 - Ensured that elements scaled responsively while retaining readability.
 
-### accessibility
+### Accessibility
 
 To ensure accessibility, I implemented several key features. I added appropriate ARIA labels to page elements, enabling seamless functionality with screen readers. Furthermore, I designed buttons to be clearly visible and included informative messages to notify users of actions taken, promoting a more inclusive user experience.
 
-## technologies used
+## Technologies used
 - HTML
 - CSS
 - Python
@@ -225,7 +227,7 @@ To ensure accessibility, I implemented several key features. I added appropriate
 - Code Institute CI Python Linter - Python Manual Testing
 - W3 Markup Validation Service - HTML & CSS Validation Testing
 
-## libraries and frameworks
+## Libraries and Frameworks
 - Bootstrap v5.3.2
 - Django v 4.2.1
 - Django AllAuth v0.57.0
@@ -236,14 +238,14 @@ To ensure accessibility, I implemented several key features. I added appropriate
 - Gunicorn v20.1.0
 - Cloudinary v1.36.0
 
-## additional tools
+## Additional tools
 - Autopep8 - Python Formatter
 - GoogleFonts - Fonts
 - Imgur - ReadME image hosting
 - ChatGPT - Debugging and documentation assistance
 
 ---
-### deployment
+### Deployment
 
 Django & Heroku Deployment was set up following the PDF provided by CI below:
 [Deployment Guide](Deployment.pdf)
