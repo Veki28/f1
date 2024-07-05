@@ -244,11 +244,27 @@ To ensure accessibility, I implemented several key features. I added appropriate
 - Imgur - ReadME image hosting
 - ChatGPT - Debugging and documentation assistance
 
----
-### Deployment
+## Deployment
 
-Django & Heroku Deployment was set up following the PDF provided by CI below:
-[Deployment Guide](Deployment.pdf)
+The deployment stage of the website should follow the steps below:
+
+> Create the Heroku app
+
+- Sign up / Log in to Heroku
+- In Heroku Dashboard page select 'New' and then 'Create New App'
+- Name a project - I decided on the F1 Blog (the app's name must be unique)
+- Select EU as that was my region in the moment of creating the app
+- Select 'Create App'
+- In the 'Deploy' tab choose GitHub as the deployment method
+- Connect your GitHub account/ find and connect your GitHub repository
+
+> Set up environment variables
+
+- In the Django app editor create `env.py` in the top level
+- In `env.py` import `os`
+- In `env.py` set up necessary environment variables:
+   - add a secret key using: `os.environ['SECRET_KEY'] = 'your secret key'`
+   - for the database variable the line should include `os.environ['DATABASE_URL'] = 'Paste the database link in here'`
 
 ### Credits & references
 - [Django Documenation](https://www.djangoproject.com)
