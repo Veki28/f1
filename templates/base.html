@@ -58,9 +58,15 @@
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
+                        <p class="text-end m-2" style="color: #ff1801;">Logged in as {{ user }}</p>
+                    </li>
+                    <li class="nav-item">
                         <a id="logout" class="nav-link {% if request.path == logout_url %}active" aria-current="page{% endif %}" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
+                    <li class="nav-item">
+                        <p class="text-end m-2" style="color: #fff;">You are not logged in</p>
+                    </li>
                     <li class="nav-item">
                         <a id="register" class="nav-link {% if request.path == signup_url %}active" aria-current="page{% endif %}" href="{% url 'account_signup' %}">Register</a>
                     </li>
@@ -88,11 +94,7 @@
     </div>
 
     <main class="flex-shrink-0 main-bg">
-        {% if user.is_authenticated %}
-        <p class="text-end m-3">Logged in as {{ user }}</p>
-        {% else %}
-        <p class="text-end m-3">You are not logged in</p>
-        {% endif %} {% block content %}
+        {% block content %}
         <!-- Content Goes here -->
         {% endblock content %}
 

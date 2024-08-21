@@ -45,7 +45,6 @@ Below are some of the user stories can be found in GitHub Projects board, which 
 | ------ | ------ |
 | Create a account so that I can log in | 1. User can log-in to account they registered. <br> 2. User can log-in. 3. User can log-out. |
 | Browse available blogs | 1. Users can view the individual race blogs available on site. <br> 2. Not logged-in users can view individual blogs and request to contact/collablorate. To leave comments they need to be logged in. |
-| | |
 
 ### User Logged-in:
 | I want to | acceptance criteria |

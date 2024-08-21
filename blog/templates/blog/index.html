@@ -16,7 +16,7 @@
                                 <img class="card-img-top" src="{% static '166987878GI00099_F1_Grand_P.webp' %}" alt="placeholder ima"> {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="{{ post.title }}"> {% endif %}
                                 <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
+                                    <p class="author">By: {{ post.author }}</p>
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
