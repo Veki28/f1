@@ -291,4 +291,4 @@ The deployment stage of the website should follow the steps below:
 
 - Big thanks to *my family and my friends* for their support and encouragement throughout these challenging coding days.
 
-
+- Please note, that if logged in as admin, you may see some innappropriate things in admin panel, deleted by me were posed by friends which were, lets say a bit too excited when they learned what I was working about.
