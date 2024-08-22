@@ -208,6 +208,10 @@ Throughout the sites development, no significant changes were made to ensure tha
 
 To ensure accessibility, I implemented several key features. I added appropriate ARIA labels to page elements, enabling seamless functionality with screen readers. Furthermore, I designed buttons to be clearly visible and included informative messages to notify users of actions taken, promoting a more inclusive user experience.
 
+## Testing documentation
+
+This documentation can be found [here](testing.md) 
+
 ## Technologies used
 - HTML
 - CSS
@@ -225,6 +229,7 @@ To ensure accessibility, I implemented several key features. I added appropriate
 - Photoshop - Main display image
 - Code Institute CI Python Linter - Python Manual Testing
 - W3 Markup Validation Service - HTML & CSS Validation Testing
+- Code Beautify - JS Validation Testing
 
 ## Libraries and Frameworks
 - Bootstrap v5.3.2
