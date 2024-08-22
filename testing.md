@@ -69,7 +69,7 @@ Used https://codebeautify.org/jsvalidate for JS testing
 
 ### Python
 
-PY
+Used https://pep8ci.herokuapp.com/# for PY testing
 
 | File | Results | Additional |
 | ----- | ----- | ----- |
