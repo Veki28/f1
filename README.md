@@ -1,6 +1,6 @@
 # F1 Blog
 
-<img src="https://i.imgur.com/VFVFeCF.png">
+<img src="https://i.imgur.com/KCbPjE1.png">
 
 ---
 ## Introduction
